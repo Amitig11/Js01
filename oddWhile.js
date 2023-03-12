@@ -1,9 +1,7 @@
-let number = 0;
+let number = 1;
 
-while (number % 2 == 0 && number < 20) {
-    number++
+while (!(number % 2 === 0) && number <= 19) {
     console.log(number);
-    number++
+    number+=2;
 }
 
-    
